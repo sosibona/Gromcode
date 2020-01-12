@@ -1,43 +1,3 @@
-/* html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
-}
-
-section {
-  margin-left: 1px;
-}
-
-body {
-  margin: 32px;
-}
-
-h1 {
-  word-spacing: 20px;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-p {
-  line-height: 28px;
-}
-
-.language {
-  font-weight: 900;
-  letter-spacing: 3px;
-  font-size: 24px;
-  opacity: 0.8;
-  text-decoration: underline;
-}
-
-a {
-  text-decoration: none;
-}
-
-.translate {
-  font-style: italic;
-  color: grey;
-} */
-
 html {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
@@ -57,12 +17,12 @@ p {
   line-height: 28px;
 }
 
-.tecknology {
+.language {
+  font-weight: bold;
   letter-spacing: 3px;
   font-size: 24px;
-  opacity: 80%;
+  opacity: 0.8;
   text-decoration: underline;
-  font-weight: bold;
 }
 
 a {
@@ -70,6 +30,6 @@ a {
 }
 
 .translate {
+  font-style: italic;
   color: grey;
-  font-style: oblique;
 }
