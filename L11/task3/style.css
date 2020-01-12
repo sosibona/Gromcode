@@ -5,12 +5,12 @@
   display: inline-block;
   padding: 16px;
   position: relative;
+  color: white;
 }
 
 .dropdown:hover {
   opacity: 1;
   font-size: 16px;
-  color: white;
   cursor: pointer;
 }
 
