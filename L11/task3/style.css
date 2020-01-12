@@ -3,7 +3,7 @@
   opacity: 0.8;
   margin: 16px;
   display: inline-block;
-  padding: 8px;
+  padding: 16px;
   position: relative;
 }
 
@@ -29,7 +29,7 @@
   min-width: 120px;
   z-index: 1;
   display: none;
-  top: 35px;
+  top: 50px;
   left: 0;
 }
 
