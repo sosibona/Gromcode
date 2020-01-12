@@ -1,0 +1,17 @@
+.hover {
+  margin: 16px;
+  position: relative;
+}
+
+.main-text {
+  border-bottom: 1px dotted black;
+}
+
+.tooltip {
+  background-color: grey;
+  border-radius: 4px;
+  padding: 8px;
+  position: absolute;
+  bottom: -40px;
+  color: white;
+}
