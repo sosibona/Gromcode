@@ -1,0 +1,18 @@
+html {
+  font-family: Verdana, sans-serif;
+}
+
+header {
+  font-size: 74px;
+  margin: 16px;
+  text-align: center;
+}
+
+div {
+  height: 200px;
+  background-color: coral;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 200px;
+}
