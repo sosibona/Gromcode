@@ -1,5 +1,5 @@
 .video {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
   margin: 0 auto;
   margin-top: 200px;  
@@ -7,5 +7,9 @@
 }
 
 .video source {
+  width: 500px;
+}
+
+.video[poster] {
   width: 500px;
 }
