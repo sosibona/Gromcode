@@ -10,10 +10,7 @@
   color: white;
   width: 300px;
   height: 500px;
-  background: url(nature.jpeg);
-  /* background-image: url(nature.jpeg); */
-  background-clip: border-box;
-  /* background-color: #f00; */
+  background-image: url(nature.jpeg);
   background-position: center;
   background-size: cover;
 }
