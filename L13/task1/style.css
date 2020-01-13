@@ -8,6 +8,7 @@
   height: 500px;
   background-image: url(nature.jpeg);
   background-clip: border-box;
+  background-color: #f00;
   background-position: center;
   background-size: cover;
 }
