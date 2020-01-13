@@ -1,0 +1,11 @@
+.video {
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 200px;  
+  display: block;
+}
+
+.video source {
+  width: 500px;
+}
