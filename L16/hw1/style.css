@@ -50,6 +50,6 @@
   border-radius: 4px;
 }
 
-form-input:required {
-  outline: 3px solid #ff0000;
+.form-input:required {
+  border: 3px solid #ff0000;
 }
