@@ -1,3 +1,8 @@
+.battery {
+  display: flex;
+  justify-content: space-around;
+}
+
 .fa-battery-full {
   font-size: 16px;
 }
