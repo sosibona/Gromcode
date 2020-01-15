@@ -1,0 +1,29 @@
+.btn {
+  width: 200px;
+  height: 50px;
+  margin: 64px;
+  background-color: coral;
+  color: #fff;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  line-height: 50px;
+}
+
+.btn:hover {
+  color: darkcyan;
+}
+
+.bird {
+  color: #fff;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
+}
+
+.bird:hover {
+  fill: green;
+}
