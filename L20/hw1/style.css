@@ -13,7 +13,7 @@
   margin: 0 auto;
   margin-bottom: 8px;
   border-radius: 50%;
-  animation: loading 2s infinite linear;
+  animation: loading infinite 2s 2s linear;
 }
 
 .spinner {
