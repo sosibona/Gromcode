@@ -8,6 +8,9 @@ html {
 h1 {
   text-align: center;
   color: #fff;
+}
+
+.header {
   background: linear-gradient(60deg, red, orange);
 }
 
@@ -40,8 +43,8 @@ body {
   font-size: 1.25em;
 }
 
-.unit-list {
-  font-size: 1.75em;
+.units-list {
+  line-height: 1.75em;
 }
 
 .css-units {
@@ -68,6 +71,7 @@ body {
 .nav-list-link {
   color: #fff;
   text-decoration: none;
+  white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -76,5 +80,6 @@ body {
 
 .footer {
   padding: 0.5em;
-  background-color: #e5e5e5;;
+  background-color: #e5e5e5;
+  text-align: center;
 }
