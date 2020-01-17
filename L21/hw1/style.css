@@ -1,0 +1,80 @@
+html {
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+  background: linear-gradient(60deg, red, orange);
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.navigation, .news, .section {
+  padding: 0 0.5em;
+}
+
+.navigation {
+  width: 20%;
+}
+
+.news {
+  width: 20%;
+}
+
+.section {
+  width: 60%;
+  font-size: 1.25em;
+}
+
+.unit-list {
+  font-size: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.nav-list__item {
+  list-style-type: none;
+  padding: 0;
+  background-color: #808080;
+  color: #fff;
+  line-height: 2em;
+  margin: 0.5em;
+}
+
+.nav-list-link {
+  color: #fff;
+  text-decoration: none;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+
+
+.footer {
+  padding: 0.5em;
+  background-color: #e5e5e5;;
+}
