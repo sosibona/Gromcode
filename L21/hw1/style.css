@@ -80,16 +80,16 @@ body {
   color: #fff;
   line-height: 2em;
   margin: 0.5em 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .nav-list-link {
   width: 100%;
-  margin-left: 0.5em;
+  margin: 0 0.5em;
   text-decoration: none;
   color: #fff;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 
 /* html {
