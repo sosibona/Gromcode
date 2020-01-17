@@ -1,4 +1,91 @@
 html {
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+}
+
+h1 {
+  color: #fff;
+  text-align: center;
+}
+
+.header {
+  background: linear-gradient(60deg, red, orange);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer {
+  text-align: center;
+  background-color: #e5e5e5;
+  padding: 0.5em;
+}
+
+.navigation, .section, .news {
+  padding: 0.5em;
+}
+
+.navigation {
+  width: 20%;
+}
+
+.section {
+  width: 60%;
+  font-size: 1.25em;
+}
+
+.news {
+  width: 20%
+}
+
+.units-list {
+  line-height: 1.75em;
+}
+
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+
+.nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.nav-list__item {
+  background-color: #808080;
+  color: #fff;
+  line-height: 2em;
+  margin: 0.5em;
+}
+
+.nav-list-link {
+  width: 100%;
+  margin-left: 0.5em;
+  text-decoration: none;
+  color: #fff;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* html {
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: #555;;
@@ -82,4 +169,4 @@ body {
   padding: 0.5em;
   background-color: #e5e5e5;
   text-align: center;
-}
+} */
