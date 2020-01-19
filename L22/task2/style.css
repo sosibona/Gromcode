@@ -55,6 +55,6 @@ span {
   }
 
   .nav, .list, .news {
-    flex-grow: 1;
+    flex: 1 0 33%;
   }
 }
