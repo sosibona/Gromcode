@@ -1,0 +1,60 @@
+.container {
+  display: flex;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+span {
+  padding: 8px;
+  background-color: #faebd7;
+  border-radius: 4px;
+  margin: auto;
+}
+
+.nav {
+  background-color: #ff7f50 ;
+}
+
+.list {
+  background-color: #006400;
+}
+
+.news {
+  background-color: #0ff;
+}
+
+.nav, .list, .news {
+  height: 200px;
+  display: flex;
+}
+
+@media screen and (max-width: 599px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 600px) and (max-width: 899px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .nav, .list {
+    width: 50%;
+  }
+
+  .news {
+    flex-grow: 1;
+  }
+}
+
+
+@media screen and (min-width: 900px) {
+  .container {
+    display: flex;
+  }
+
+  .nav, .list, .news {
+    flex-grow: 1;
+  }
+}
