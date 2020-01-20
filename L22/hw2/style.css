@@ -120,3 +120,17 @@ img {
     flex-grow: 1;
   }
 }
+
+@media screen and (min-width: 900px) {
+  .navigation {
+    width: 20%;
+  }
+
+  .section {
+    width: 60%;
+  }
+
+  .news {
+    width: 20%;
+  }
+}
