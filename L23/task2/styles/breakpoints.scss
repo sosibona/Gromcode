@@ -9,37 +9,25 @@ $large: 1200px;
 }
 
 @mixin for-avarage-port {
-  @media screen and (min-width: $small) and (oriantation: portrait) {
+  @media screen and (min-width: $small)  {
     @content;
   }
 }
 
-@mixin for-avarage-land {
-  @media screen and (min-width: $small) and (oriantation: landscape) {
-    @content;
-  }
-}
-
-@mixin for-medium-up-port {
-  @media screen and (min-width: $medium) and (oriantation: portrait) {
-    @content;
-  }
-}
-
-@mixin for-medium-up-land {
-  @media screen and (min-width: $medium) and (oriantation: landscape) {
+@mixin for-medium-up {
+  @media screen and (min-width: $medium) {
     @content;
   }
 }
 
 @mixin for-large-port {
-  @media screen and (min-width: $large) and (oriantation: portrait) {
+  @media screen and (min-width: $large) {
     @content;
   }
 }
 
-@mixin for-large-land {
-  @media screen and (min-width: $large) and (oriantation: landscape) {
+@mixin landscape {
+  @media screen and (orientation: landscape){
     @content;
   }
 }
