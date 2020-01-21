@@ -7,6 +7,7 @@
 
 .menu {
   display: flex;
+  margin-left: 0.5em;
   text-transform: uppercase;
   list-style-type: none;
   align-items: center;
@@ -17,7 +18,7 @@
   line-height: 3em;
 }
 .menu__item_active {
-  color: #9acd32;
+  color: #c9f641;
 }
 
 .submenu {
