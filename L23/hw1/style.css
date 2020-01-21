@@ -17,8 +17,8 @@
   padding: 0 8px;
   line-height: 3em;
 }
-.menu__item_active {
-  color: #c9f641;
+.menu__item:hover {
+  color: #ffff00;
 }
 
 .submenu {
