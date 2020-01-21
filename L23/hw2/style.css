@@ -1,0 +1,66 @@
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cont {
+  display: flex;
+  flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+  .cont {
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+}
+@media screen and (min-width: 900px) {
+  .cont {
+    flex-direction: row;
+  }
+}
+
+.square {
+  height: 200px;
+  text-transform: lowercase;
+  display: flex;
+}
+@media screen and (min-width: 900px) {
+  .square {
+    flex: 1 0 33%;
+  }
+}
+
+.nav {
+  background-color: #ff7f50;
+}
+@media screen and (min-width: 600px) {
+  .nav {
+    width: 50%;
+  }
+}
+
+.list {
+  background-color: #006400;
+}
+@media screen and (min-width: 600px) {
+  .list {
+    width: 50%;
+  }
+}
+
+.news {
+  background-color: #0ff;
+}
+@media screen and (min-width: 600px) {
+  .news {
+    flex-grow: 1;
+  }
+}
+
+div span {
+  background-color: #faebd7;
+  border-radius: 4px;
+  padding: 8px;
+  margin: auto;
+}
+
+/*# sourceMappingURL=style.css.map */
