@@ -11,21 +11,38 @@ body {
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+
+  @include for-avarage-land {
+    flex-direction: row;
+  }
+
+  @include for-medium-up-land {
+    flex-direction: row;
+  }
+
+  @include for-large-land {
+    flex-direction: row;
+  }
+}
+
 .square {
   width: 100px;
   height: 100px;
   margin: 8px;
   background-color: #ff7f50;
 
-  @include for-avarage {
+  @include for-avarage-port {
     background-color: #8a2be2;
   } 
 
-  @include for-medium-up {
+  @include for-medium-up-port {
     background-color: #a61;
   }
 
-  @include for-large {
+  @include for-large-port {
     background-color: #c47;
   }
 }
