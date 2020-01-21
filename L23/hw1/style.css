@@ -20,11 +20,15 @@
 .menu__item_active {
   color: #ffff00;
 }
+.menu__item_active:hover > .submenu {
+  display: block;
+}
 .menu__item:hover {
   color: #ffff00;
 }
 
 .submenu {
+  display: none;
   list-style-type: none;
   margin: 0;
   padding: 0;
