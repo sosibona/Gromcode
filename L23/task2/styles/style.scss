@@ -38,11 +38,23 @@ body {
     background-color: #8a2be2;
   } 
 
+  @include for-avarage-land {
+    background-color: #8a2be2;
+  }
+
   @include for-medium-up-port {
     background-color: #a61;
   }
 
+  @include for-medium-up-land {
+    background-color: #a61;
+  }
+
   @include for-large-port {
+    background-color: #c47;
+  }
+
+  @include for-large-land {
     background-color: #c47;
   }
 }
