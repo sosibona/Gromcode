@@ -17,6 +17,9 @@
   padding: 0 8px;
   line-height: 3em;
 }
+.menu__item_active {
+  color: #ffff00;
+}
 .menu__item:hover {
   color: #ffff00;
 }

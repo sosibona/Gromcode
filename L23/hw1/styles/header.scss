@@ -17,6 +17,10 @@
     padding: 0 8px;
     line-height: 3em;
 
+    &_active {
+      color: #ffff00;
+    }
+
     &:hover {
       color: #ffff00;
     }
